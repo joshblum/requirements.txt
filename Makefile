@@ -9,5 +9,5 @@ setup:
 
 update:
 	cd $(REPO) && git pull --rebase origin master
-	git commit -m "Update requirements"
+	-git commit -m "Update requirements"
 	git push origin master
