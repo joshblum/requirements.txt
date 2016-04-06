@@ -1,4 +1,5 @@
 REPO:=../req-cs
+CRONTAB=cd ~/requirements.txt; make update;
 
 default:  update
 
