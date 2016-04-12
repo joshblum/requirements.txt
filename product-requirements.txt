@@ -20,20 +20,14 @@ djangorestframework==3.3.3
 httpsig==1.1.2
 djangocms-admin-style==1.1.0
 djrill==2.0
-gunicorn==19.3.0
+gunicorn==19.4.5
 httmock==1.2.3
 selenium==2.48.0
 django-cors-headers==1.1.0
 djangorestframework-httpsignature==1.0.0
 pyOpenSSL==0.15.1
 pycrypto==2.6.1
-# Upgrade to newer google-api-python-client and remove oauth2client once they
-# release the following PRs on pypi:
-# https://github.com/google/google-api-python-client/pull/182
-# https://github.com/google/google-api-python-client/pull/183
-# https://github.com/google/google-api-python-client/pull/184
-oauth2client==1.5.2
-google-api-python-client==1.4.1
+google-api-python-client==1.5.0
 matplotlib==1.5.0
 django-bitfield==1.8.0
 timeout-decorator==0.3.2
@@ -54,7 +48,7 @@ kombu==3.0.33
 redis==2.10.5
 stripe==1.29.1
 django-nose==1.4.3
-django-hijack==2.0.7
+django-hijack==2.0.8
 whitenoise==3.0.0
 django-crispy-forms==1.6.0
 django-annoying==0.8.7
