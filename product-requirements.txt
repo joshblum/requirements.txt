@@ -11,7 +11,7 @@ pelican==3.5.0
 markdown==2.6.2
 boto==2.38.0
 httpretty==0.8.10
-moto==0.4.1
+moto==0.4.23
 raven==5.12.0
 flake8==2.5.4
 ipython==4.1.2
