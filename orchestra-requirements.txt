@@ -25,7 +25,8 @@ google-api-python-client==1.5.0
 slacker==0.9.9
 pandas==0.18.0
 python-dateutil==2.5.2
-django-hijack==2.0.8
+django-hijack==2.1.0
+django-hijack-admin==2.1.0
 django-nose==1.4.3
 django-debug-toolbar==1.4
 django-debug-panel==0.8.2
