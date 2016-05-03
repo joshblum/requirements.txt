@@ -2,7 +2,7 @@ Django==1.9.5
 jsonfield==1.0.3
 django-jsonview==0.5.0
 requests==2.9.1
-factory_boy==2.6.1
+factory_boy==2.7.0
 coverage==4.0.3
 psycopg2==2.6.1
 phonenumbers==7.0.4
@@ -11,13 +11,13 @@ pelican==3.5.0
 markdown==2.6.2
 boto==2.39.0
 moto==0.4.23
-raven==5.12.0
+raven==5.13.0
 flake8==2.5.4
-ipython==4.1.2
+ipython==4.2.0
 django-storages-redux==1.3.2
 djangorestframework==3.3.3
 httpsig==1.1.2
-djangocms-admin-style==1.1.0
+djangocms-admin-style==1.1.1
 djrill==2.1.0
 gunicorn==19.4.5
 httmock==1.2.5
@@ -30,7 +30,7 @@ google-api-python-client==1.5.0
 matplotlib==1.5.1
 django-bitfield==1.8.0
 timeout-decorator==0.3.2
-slacker==0.9.9
+slacker==0.9.10
 beautifulsoup4==4.4.1
 # NOTE(derek): html5lib is an optional module used by beautifulsoup4
 html5lib==0.9999999
@@ -47,8 +47,8 @@ kombu==3.0.33
 redis==2.10.5
 stripe==1.32.2
 django-nose==1.4.3
-django-hijack==2.1.0
-django-hijack-admin==2.1.0
+django-hijack==2.1.1
+django-hijack-admin==2.1.1
 whitenoise==3.0.0
 django-crispy-forms==1.6.0
 django-annoying==0.9.0
