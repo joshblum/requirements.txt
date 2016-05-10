@@ -1,4 +1,4 @@
-Django==1.9.5
+Django==1.9.6
 jsonfield==1.0.3
 django-jsonview==0.5.0
 requests==2.9.1
@@ -10,7 +10,7 @@ djrill==2.1.0
 ipython==4.2.0
 boto==2.39.0
 moto==0.4.23
-raven==5.13.0
+raven==5.15.0
 flake8==2.5.4
 djangorestframework==3.3.3
 djangorestframework-httpsignature==1.0.0
@@ -43,3 +43,4 @@ django-widget-tweaks==1.4.1
 django-bitfield==1.8.0
 django-phonenumber-field==1.1.0
 django-annoying==0.9.0
+django-related-admin==0.3.0
