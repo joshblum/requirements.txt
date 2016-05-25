@@ -67,3 +67,6 @@ django-money==0.8.0
 tinycss==0.3
 django-phonenumber-field==1.1.0
 django-sortedm2m==1.2.2
+jsl==0.2.4
+jsonschema==2.5.1
+snowplow-tracker==0.7.2
