@@ -3,18 +3,18 @@ jsonfield==1.0.3
 django-jsonview==0.5.0
 requests==2.10.0
 factory_boy==2.7.0
-coverage==4.0.3
+coverage==4.1
 psycopg2==2.6.1
 django-registration-redux==1.4
 djrill==2.1.0
 ipython==4.2.0
 boto==2.40.0
 moto==0.4.24
-raven==5.17.0
+raven==5.18.0
 flake8==2.5.4
 djangorestframework==3.3.3
 djangorestframework-httpsignature==1.0.0
-djangocms-admin-style==1.2.0
+djangocms-admin-style==1.2.2
 lxml==3.6.0
 beautifulsoup4==4.4.1
 pyOpenSSL==16.0.0
@@ -29,7 +29,7 @@ django-hijack-admin==2.1.1
 django-nose==1.4.3
 django-debug-toolbar==1.4
 django-debug-panel==0.8.2
-pexpect==4.0.1
+pexpect==4.1.0
 whitenoise==3.1
 django-crispy-forms==1.6.0
 # NOTE(joshblum): tblib is needed for parallel test runs
