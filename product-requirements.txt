@@ -1,4 +1,4 @@
-Django==1.9.6
+Django==1.9.7
 jsonfield==1.0.3
 django-jsonview==1.0.0
 requests==2.10.0
@@ -30,7 +30,7 @@ google-api-python-client==1.5.1
 matplotlib==1.5.1
 django-bitfield==1.8.0
 timeout-decorator==0.3.2
-slacker==0.9.15
+slacker==0.9.16
 beautifulsoup4==4.4.1
 # NOTE(derek): html5lib is an optional module used by beautifulsoup4
 html5lib==0.9999999
