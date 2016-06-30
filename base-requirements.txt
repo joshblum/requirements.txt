@@ -1,2 +1,2 @@
 docker-compose==1.7.1
-slacker==0.9.17
+slacker==0.9.18
