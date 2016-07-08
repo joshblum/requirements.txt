@@ -7,13 +7,13 @@ coverage==4.1
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 httpsig==1.1.2
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
-psycopg2==2.6.1
+psycopg2==2.6.2
 django-registration-redux==1.4
 djrill==2.1.0
-ipython==4.2.1
+ipython==5.0.0
 boto==2.41.0
 moto==0.4.25
-raven==5.21.0
+raven==5.22.0
 flake8==2.6.2
 djangorestframework==3.3.3
 djangorestframework-httpsignature==1.0.0
@@ -35,7 +35,7 @@ django-hijack-admin==2.1.1
 django-nose==1.4.4
 django-debug-toolbar==1.4
 django-debug-panel==0.8.3
-pexpect==4.1.0
+pexpect==4.2.0
 whitenoise==3.2
 django-crispy-forms==1.6.0
 # NOTE(joshblum): tblib is needed for parallel test runs
