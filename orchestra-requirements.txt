@@ -1,4 +1,4 @@
-Django==1.9.7
+Django==1.9.8
 jsonfield==1.0.3
 django-jsonview==1.0.0
 requests==2.10.0
@@ -27,7 +27,7 @@ pycrypto==2.6.1
 gunicorn==19.6.0
 google-api-python-client==1.5.1
 # NOTE(joshblum): also update product/circle.yml
-slacker==0.9.21
+slacker==0.9.24
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 pandas==0.18.1
 python-dateutil==2.5.3

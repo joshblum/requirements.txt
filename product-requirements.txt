@@ -1,4 +1,4 @@
-Django==1.9.7
+Django==1.9.8
 jsonfield==1.0.3
 django-jsonview==1.0.0
 requests==2.10.0
@@ -35,7 +35,7 @@ matplotlib==1.5.1
 django-bitfield==1.8.0
 timeout-decorator==0.3.2
 # NOTE(joshblum): also update product/circle.yml
-slacker==0.9.21
+slacker==0.9.24
 beautifulsoup4==4.4.1
 # NOTE(derek): html5lib is an optional module used by beautifulsoup4
 html5lib==0.999999999
