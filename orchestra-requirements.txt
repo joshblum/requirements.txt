@@ -26,6 +26,8 @@ pyOpenSSL==16.0.0
 pycrypto==2.6.1
 gunicorn==19.6.0
 google-api-python-client==1.5.1
+# NOTE(marcua): Pegging cryptography package at 1.4 due to https://github.com/burnash/gspread/issues/407
+cryptography==1.4
 # NOTE(joshblum): also update product/circle.yml
 slacker==0.9.24
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
@@ -54,3 +56,4 @@ django-related-admin==0.3.1
 django-kronos==0.9.0
 django-ajax-selects==1.4.3
 markdown2==2.3.1
+timeout-decorator==0.3.2

@@ -30,13 +30,15 @@ djangorestframework-httpsignature==1.0.0
 pyOpenSSL==16.0.0
 pycrypto==2.6.1
 google-api-python-client==1.5.1
+# NOTE(marcua): Pegging cryptography package at 1.4 due to https://github.com/burnash/gspread/issues/407
+cryptography==1.4
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 matplotlib==1.5.1
 django-bitfield==1.8.0
 timeout-decorator==0.3.2
 # NOTE(joshblum): also update product/circle.yml
 slacker==0.9.24
-beautifulsoup4==4.5.0
+beautifulsoup4==4.5.1
 # NOTE(derek): html5lib is an optional module used by beautifulsoup4
 # NOTE(kkamalov): it's important to have 7 9's
 html5lib==0.9999999
@@ -74,6 +76,12 @@ tinycss==0.3
 django-phonenumber-field==1.1.0
 jsl==0.2.4
 jsonschema==2.5.1
+# NOTE(joshblum): snowplow-tracker depends on pycontracts which depends
+# on pyparsing. The latest version of pyparsing breaks thing, so we pin
+# it to this version. If pycontracts accepts
+# https://github.com/AndreaCensi/contracts/pull/51 and snowplow upgrades,
+# we can remove this =]
+pyparsing==2.1.5
 snowplow-tracker==0.7.2
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 libsass==0.11.1
@@ -81,3 +89,5 @@ python-magic==0.4.12
 jusText==2.2.0
 Pillow==3.3.0
 django-js-reverse==0.7.2
+facebookads==2.7.1
+facebook-sdk==2.0.0
