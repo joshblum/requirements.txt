@@ -15,7 +15,7 @@ moto==0.4.27
 raven==5.27.1
 flake8==3.0.4
 ipython==5.1.0
-djangorestframework==3.4.6
+djangorestframework==3.4.7
 djangorestframework-httpsignature==1.0.0
 djangocms-admin-style==1.2.4
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
@@ -45,7 +45,7 @@ tblib==1.3.0
 brotlipy==0.6.0
 django-gulp==2.5.0
 django-money==0.9.1
-django-filter==0.14.0
+django-filter==0.15.0
 django-widget-tweaks==1.4.1
 django-bitfield==1.8.0
 django-phonenumber-field==1.1.0
