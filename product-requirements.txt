@@ -1,4 +1,4 @@
-Django==1.9.9
+Django==1.9.10
 jsonfield==1.0.3
 django-jsonview==1.0.0
 requests==2.11.1
@@ -30,8 +30,6 @@ djangorestframework-httpsignature==1.0.0
 pyOpenSSL==16.1.0
 pycrypto==2.6.1
 google-api-python-client==1.5.3
-# NOTE(marcua): Pegging cryptography package at 1.4 due to https://github.com/burnash/gspread/issues/407
-cryptography==1.5.1
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 matplotlib==1.5.1
 django-bitfield==1.8.0
