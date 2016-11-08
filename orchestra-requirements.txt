@@ -1,4 +1,4 @@
-Django==1.9.10
+Django==1.9.11
 jsonfield==1.0.3
 django-jsonview==1.0.0
 requests==2.11.1
@@ -30,7 +30,7 @@ google-api-python-client==1.5.3
 slacker==0.9.29
 # NOTE(joshblum): also update orchestra/docker/pip-install-baked.docker
 pandas==0.19.1
-python-dateutil==2.5.3
+python-dateutil==2.6.0
 django-hijack==2.1.2
 django-hijack-admin==2.1.2
 django-nose==1.4.4
