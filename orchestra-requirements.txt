@@ -10,26 +10,26 @@ httpsig==1.1.2
 psycopg2==2.6.2
 django-registration-redux==1.4
 djrill==2.1.0
-boto==2.42.0
-moto==0.4.27
-raven==5.27.1
+boto==2.43.0
+moto==0.4.29
+raven==5.31.0
 flake8==3.0.4
 ipython==5.1.0
 djangorestframework==3.4.7
 djangorestframework-httpsignature==1.0.0
-djangocms-admin-style==1.2.5
+djangocms-admin-style==1.2.6
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 lxml==3.6.4
 beautifulsoup4==4.5.1
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
-pyOpenSSL==16.1.0
+pyOpenSSL==16.2.0
 pycrypto==2.6.1
 gunicorn==19.6.0
 google-api-python-client==1.5.3
 # NOTE(joshblum): also update product/circle.yml
-slacker==0.9.28
+slacker==0.9.29
 # NOTE(joshblum): also update orchestra/docker/pip-install-baked.docker
-pandas==0.19.0
+pandas==0.19.1
 python-dateutil==2.5.3
 django-hijack==2.1.2
 django-hijack-admin==2.1.2
@@ -38,20 +38,20 @@ django-debug-toolbar==1.6
 django-debug-panel==0.8.3
 pexpect==4.2.1
 whitenoise==3.2.2
-django-crispy-forms==1.6.0
+django-crispy-forms==1.6.1
 # NOTE(joshblum): tblib is needed for parallel test runs
 tblib==1.3.0
 # NOTE(joshblum): brotlipy is needed for whitenoise compression
 brotlipy==0.6.0
 django-gulp==2.5.0
 django-money==0.9.1
-django-filter==0.15.2
+django-filter==0.15.3
 django-widget-tweaks==1.4.1
 django-bitfield==1.8.0
 django-phonenumber-field==1.1.0
 django-annoying==0.10.3
 django-related-admin==0.3.1
 django-kronos==1.0
-django-ajax-selects==1.5.0
+django-ajax-selects==1.5.2
 markdown2==2.3.1
 timeout-decorator==0.3.2
