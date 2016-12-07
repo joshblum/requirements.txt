@@ -1,7 +1,7 @@
-Django==1.9.11
+Django==1.9.12
 jsonfield==1.0.3
 django-jsonview==1.0.0
-requests==2.11.1
+requests==2.12.3
 factory_boy==2.7.0
 coverage==4.2
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
@@ -11,13 +11,13 @@ psycopg2==2.6.2
 django-registration-redux==1.4
 djrill==2.1.0
 boto==2.43.0
-moto==0.4.29
-raven==5.31.0
-flake8==3.0.4
+moto==0.4.30
+raven==5.32.0
+flake8==3.2.1
 ipython==5.1.0
-djangorestframework==3.4.7
+djangorestframework==3.5.3
 djangorestframework-httpsignature==1.0.0
-djangocms-admin-style==1.2.6
+djangocms-admin-style==1.2.6.2
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 lxml==3.6.4
 beautifulsoup4==4.5.1
@@ -26,8 +26,8 @@ pyOpenSSL==16.2.0
 pycrypto==2.6.1
 gunicorn==19.6.0
 google-api-python-client==1.5.3
-# NOTE(joshblum): also update product/circle.yml
-slacker==0.9.29
+# NOTE(joshblum): also update circle.yml
+slacker==0.9.30
 # NOTE(joshblum): also update orchestra/docker/pip-install-baked.docker
 pandas==0.19.1
 python-dateutil==2.6.0
@@ -53,5 +53,5 @@ django-annoying==0.10.3
 django-related-admin==0.3.1
 django-kronos==1.0
 django-ajax-selects==1.5.2
-markdown2==2.3.1
+markdown2==2.3.2
 timeout-decorator==0.3.2
