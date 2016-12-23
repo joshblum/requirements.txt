@@ -2,14 +2,14 @@ Django==1.9.12
 jsonfield==1.0.3
 django-jsonview==1.0.0
 requests==2.12.3
-factory_boy==2.7.0
+factory_boy==2.8.1
 coverage==4.2
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 psycopg2==2.6.2
-phonenumbers==7.7.5
+phonenumbers==8.0.0
 django-object-actions==0.9.0
-pelican==3.6.3
-boto==2.43.0
+pelican==3.7.0
+boto==2.45.0
 moto==0.4.30
 raven==5.32.0
 flake8==3.2.1
@@ -21,7 +21,7 @@ httpsig==1.1.2
 djangocms-admin-style==1.2.6.2
 djrill==2.1.0
 gunicorn==19.6.0
-httmock==1.2.5
+httmock==1.2.6
 django-cors-headers==1.3.1
 selenium==3.0.2
 djangorestframework-httpsignature==1.0.0
@@ -41,15 +41,15 @@ beautifulsoup4==4.5.1
 html5lib==0.9999999
 gevent==1.1.2
 gevent-websocket==0.9.5
-eventlet==0.19.0
-greenlet==0.4.10
+eventlet==0.20.0
+greenlet==0.4.11
 python-engineio==1.1.0
 python-socketio==1.6.1
 six==1.10.0
 django-registration-redux==1.4
-django-related-admin==0.3.1
+django-related-admin==0.4.0
 redis==2.10.5
-stripe==1.43.0
+stripe==1.44.0
 django-nose==1.4.4
 django-hijack==2.1.2
 django-hijack-admin==2.1.2
@@ -67,14 +67,14 @@ brotlipy==0.6.0
 django-gulp==2.5.0
 # NOTE(lydia): When upgrading django-money, run makemigrations to check if
 # new currencies were added. (currencies are passed as choices to MoneyField)
-django-money==0.9.1
+django-money==0.10
 tinycss==0.4
 django-phonenumber-field==1.1.0
 jsl==0.2.4
 jsonschema==2.5.1
 snowplow-tracker==0.8.0
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
-libsass==0.11.2
+libsass==0.12.1
 python-magic==0.4.12
 jusText==2.2.0
 Pillow==3.4.2
