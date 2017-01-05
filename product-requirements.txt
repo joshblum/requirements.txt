@@ -1,7 +1,7 @@
 Django==1.9.12
 jsonfield==1.0.3
 django-jsonview==1.0.0
-requests==2.12.3
+requests==2.12.4
 factory_boy==2.8.1
 coverage==4.2
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
@@ -39,7 +39,7 @@ beautifulsoup4==4.5.1
 # NOTE(derek): html5lib is an optional module used by beautifulsoup4
 # NOTE(kkamalov): it's important to have 7 9's
 html5lib==0.9999999
-gevent==1.1.2
+gevent==1.2.0
 gevent-websocket==0.9.5
 eventlet==0.20.0
 greenlet==0.4.11
@@ -67,7 +67,7 @@ brotlipy==0.6.0
 django-gulp==2.5.0
 # NOTE(lydia): When upgrading django-money, run makemigrations to check if
 # new currencies were added. (currencies are passed as choices to MoneyField)
-django-money==0.10
+django-money==0.10.1
 tinycss==0.4
 django-phonenumber-field==1.1.0
 jsl==0.2.4
@@ -78,7 +78,7 @@ libsass==0.12.1
 python-magic==0.4.12
 jusText==2.2.0
 Pillow==3.4.2
-django-js-reverse==0.7.2
+django-js-reverse==0.7.3
 facebookads==2.8.1
 facebook-sdk==2.0.0
 colormath==2.1.1
