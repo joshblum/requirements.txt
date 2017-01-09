@@ -3,7 +3,7 @@ jsonfield==1.0.3
 django-jsonview==1.0.0
 requests==2.12.4
 factory_boy==2.8.1
-coverage==4.2
+coverage==4.3.1
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 psycopg2==2.6.2
 phonenumbers==8.0.0
@@ -35,16 +35,16 @@ django-bitfield==1.8.0
 timeout-decorator==0.3.2
 # NOTE(joshblum): also update circle.yml
 slacker==0.9.30
-beautifulsoup4==4.5.1
+beautifulsoup4==4.5.3
 # NOTE(derek): html5lib is an optional module used by beautifulsoup4
 # NOTE(kkamalov): it's important to have 7 9's
 html5lib==0.9999999
 gevent==1.2.0
 gevent-websocket==0.9.5
-eventlet==0.20.0
+eventlet==0.20.1
 greenlet==0.4.11
 python-engineio==1.1.0
-python-socketio==1.6.1
+python-socketio==1.6.2
 six==1.10.0
 django-registration-redux==1.4
 django-related-admin==0.4.0
@@ -53,7 +53,7 @@ stripe==1.44.0
 django-nose==1.4.4
 django-hijack==2.1.2
 django-hijack-admin==2.1.2
-whitenoise==3.2.2
+whitenoise==3.2.3
 django-crispy-forms==1.6.1
 django-annoying==0.10.3
 django-debug-toolbar==1.6
@@ -77,7 +77,7 @@ snowplow-tracker==0.8.0
 libsass==0.12.1
 python-magic==0.4.12
 jusText==2.2.0
-Pillow==3.4.2
+Pillow==4.0.0
 django-js-reverse==0.7.3
 facebookads==2.8.1
 facebook-sdk==2.0.0
@@ -86,7 +86,7 @@ django-fernet-fields==0.4
 # NOTE(lydia): objectpath is under AGPLv3 license. Don't
 # modify/optimize/subclass any of its modules.
 objectpath==0.5
-cairosvg==2.0.0
+cairosvg==2.0.1
 filelock==2.0.7
 feedparser==5.2.1
 html2text==2016.9.19
