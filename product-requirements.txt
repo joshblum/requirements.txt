@@ -23,14 +23,12 @@ djrill==2.1.0
 gunicorn==19.7.0
 httmock==1.2.6
 django-cors-headers==2.0.2
-selenium==3.3.1
+selenium==3.0.2
 djangorestframework-httpsignature==1.0.0
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 pyOpenSSL==16.2.0
 pycrypto==2.6.1
 google-api-python-client==1.5.3
-# NOTE(joshblum): also update product/docker/pip-install-baked.docker
-matplotlib==2.0.0
 django-bitfield==1.8.0
 timeout-decorator==0.3.3
 # NOTE(joshblum): also update circle.yml
