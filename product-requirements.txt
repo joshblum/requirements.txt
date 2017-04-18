@@ -1,4 +1,4 @@
-Django==1.9.12
+Django==1.9.13
 jsonfield==2.0.1
 django-jsonview==1.0.0
 requests==2.13.0
@@ -6,7 +6,7 @@ factory_boy==2.8.1
 coverage==4.3.4
 # NOTE(joshblum): also update product/docker/pip-install-baked.docker
 psycopg2==2.7.1
-phonenumbers==8.3.3
+phonenumbers==8.4.0
 django-object-actions==0.9.0
 pelican==3.7.1
 boto==2.46.1
@@ -20,7 +20,7 @@ djangorestframework==3.6.2
 httpsig==1.1.2
 djangocms-admin-style==1.2.6.2
 djrill==2.1.0
-gunicorn==19.7.0
+gunicorn==19.7.1
 httmock==1.2.6
 django-cors-headers==2.0.2
 selenium==3.0.2
@@ -39,15 +39,15 @@ beautifulsoup4==4.5.3
 html5lib==0.9999999
 gevent==1.2.1
 gevent-websocket==0.10.1
-eventlet==0.20.1
+eventlet==0.21.0
 greenlet==0.4.12
-python-engineio==1.3.0
-python-socketio==1.7.2
+python-engineio==1.3.2
+python-socketio==1.7.4
 six==1.10.0
 django-registration-redux==1.5
 django-related-admin==0.4.0
 redis==2.10.5
-stripe==1.50.0
+stripe==1.53.0
 django-nose==1.4.4
 django-hijack==2.1.3
 django-hijack-admin==2.1.3
@@ -59,15 +59,13 @@ django-debug-panel==0.8.3
 django-ajax-selects==1.5.2
 pexpect==4.2.1
 # NOTE(joshblum): tblib is needed for parallel test runs
-tblib==1.3.0
+tblib==1.3.2
 # NOTE(joshblum): brotlipy is needed for whitenoise compression
 brotlipy==0.6.0
-django-gulp==2.5.0
-# NOTE(lydia): When upgrading django-money, run makemigrations to check if
-# new currencies were added. (currencies are passed as choices to MoneyField)
-django-money==0.10.1
+django-gulp==2.5.1
+django-money==0.10.2
 tinycss==0.4
-django-phonenumber-field==1.1.0
+django-phonenumber-field==1.2.0
 jsl==0.2.4
 jsonschema==2.6.0
 snowplow-tracker==0.8.0
@@ -75,7 +73,7 @@ snowplow-tracker==0.8.0
 libsass==0.12.3
 python-magic==0.4.13
 jusText==2.2.0
-Pillow==4.0.0
+Pillow==4.1.0
 django-js-reverse==0.7.3
 facebookads==2.8.1
 facebook-sdk==2.0.0
@@ -85,7 +83,7 @@ django-fernet-fields==0.5
 # modify/optimize/subclass any of its modules.
 objectpath==0.5
 cairosvg==2.0.2
-filelock==2.0.7
+filelock==2.0.8
 feedparser==5.2.1
 html2text==2016.9.19
 markdown2==2.3.3
