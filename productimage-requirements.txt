@@ -1,0 +1,43 @@
+-r /baseimage/requirements.txt
+django-object-actions==0.9.0
+pelican==3.7.1
+django-storages==1.5.2
+httmock==1.2.6
+django-cors-headers==2.0.2
+selenium==3.0.2
+# NOTE(derek): html5lib is an optional module used by beautifulsoup4
+# NOTE(kkamalov): it's important to have 7 9's
+html5lib==0.9999999
+gevent==1.2.1
+gevent-websocket==0.10.1
+eventlet==0.21.0
+greenlet==0.4.12
+python-engineio==1.3.2
+python-socketio==1.7.4
+six==1.10.0
+redis==2.10.5
+stripe==1.53.0
+tinycss==0.4
+jsl==0.2.4
+jsonschema==2.6.0
+snowplow-tracker==0.8.0
+libsass==0.12.3
+python-magic==0.4.13
+jusText==2.2.0
+Pillow==4.1.0
+django-js-reverse==0.7.3
+facebookads==2.8.1
+facebook-sdk==2.0.0
+colormath==2.1.1
+django-fernet-fields==0.5
+# NOTE(lydia): objectpath is under AGPLv3 license. Don't
+# modify/optimize/subclass any of its modules.
+objectpath==0.5
+cairosvg==2.0.2
+filelock==2.0.8
+feedparser==5.2.1
+html2text==2016.9.19
+tldextract==2.0.2
+multidimensional-urlencode==0.0.4
+pandas==0.19.2
+jupyter==1.0.0
