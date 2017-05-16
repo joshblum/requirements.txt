@@ -35,5 +35,11 @@ feedparser==5.2.1
 html2text==2016.9.19
 tldextract==2.0.2
 multidimensional-urlencode==0.0.4
-pandas==0.19.2
+pandas==0.20.1
 jupyter==1.0.0
+numpy==1.12.1
+scipy==0.19.0
+matplotlib==2.0.0
+scikit-learn==0.18.1
+fuzzywuzzy==0.15.0
+python-Levenshtein==0.12.0
