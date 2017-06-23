@@ -1,2 +1,2 @@
 awsebcli==3.10.1
-slacker==0.9.42
+slacker==0.9.50

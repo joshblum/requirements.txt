@@ -1,5 +1,5 @@
 -r /baseimage/requirements.txt
-lxml==3.7.3
+lxml==3.8.0
 python-dateutil==2.6.0
 django-filter==1.0.4
 django-widget-tweaks==1.4.1

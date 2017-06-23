@@ -1,3 +1,2 @@
 docker-compose==1.13.0
-# NOTE(joshblum): also update circle.yml
-slacker==0.9.42
+slacker==0.9.50
