@@ -1,2 +1,2 @@
-awsebcli==3.10.2
+awsebcli==3.10.4
 slacker==0.9.50

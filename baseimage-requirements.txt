@@ -7,9 +7,9 @@ factory_boy==2.8.1
 coverage==4.4.1
 httpsig==1.1.2
 psycopg2==2.7.1
-django-registration-redux==1.6
+django-registration-redux==1.7
 djrill==2.1.0
-boto==2.47.0
+boto==2.48.0
 moto==0.4.31
 raven==6.1.0
 flake8==3.3.0
@@ -17,7 +17,7 @@ djangorestframework==3.6.3
 djangorestframework-httpsignature==1.0.0
 djangocms-admin-style==1.2.7
 beautifulsoup4==4.6.0
-pyOpenSSL==17.0.0
+pyOpenSSL==17.1.0
 pycrypto==2.6.1
 gunicorn==19.7.1
 google-api-python-client==1.6.2
@@ -33,8 +33,7 @@ django-crispy-forms==1.6.1
 tblib==1.3.2
 # NOTE(joshblum): brotlipy is needed for whitenoise compression
 brotlipy==0.7.0
-django-gulp==2.5.1
-django-money==0.11.3
+django-money==0.11.4
 django-bitfield==1.9.3
 django-phonenumber-field==1.3.0
 django-annoying==0.10.3
@@ -42,4 +41,4 @@ django-related-admin==0.5.0
 django-ajax-selects==1.6.0
 markdown2==2.3.4
 timeout-decorator==0.3.3
-phonenumbers==8.5.2
+phonenumbers==8.6.0
